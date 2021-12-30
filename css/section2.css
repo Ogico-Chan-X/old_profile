@@ -1,0 +1,286 @@
+#section2 {
+    width: 100%;
+    min-width:280px;
+    height: 100vh;
+    min-height:730px;
+    color:white;
+}
+
+#section2 > h2{
+  text-align:center;
+  font-size:24px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.section_title2 {
+  width:100%;
+  height:60px;
+  display: block;
+  text-align: center;
+}
+
+.section_title2 h2{
+  font-size: 18px;
+}
+
+.wrapper2{
+  width: 100;
+  height: 85%;
+  max-height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.inner2{
+  width:100%;
+  height: auto;
+}
+.photo_flame{
+  margin-top:20%;
+  margin: 0 auto;
+  height:60%;
+  width:100%;
+  max-width:375px;
+}
+
+.photo_flame > ul {
+  list-style:none;
+  padding:0;
+  width:100%;
+}
+
+.photo_works{
+  width:100%;
+}
+
+.photo_desc{
+  margin:10px auto 0 20px;
+  width:80%;
+}
+
+.photo_desc > h4{
+  font-size: 12px;
+}
+.photo_desc > p {
+  font-size: 1px;
+  margin: 0;
+}
+.photo_u{
+  width:100%;
+}
+.photo_box{
+  height:100%;
+  padding-top: 5%;
+  width: 100%;
+  margin-right:0;
+}
+.photo_box_ul {
+  padding: 0;
+  margin-right:0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+.photo_box_li{
+  width:25%;
+  min-width:40px;
+  display:block;
+  text-align: center;
+  margin:5px;
+}
+
+
+.photo_box_li > a > img {
+  min-width:60px;
+  width:100%;
+}
+
+.gallery_link{
+  font-size: 12px;
+  text-align:center;
+}
+
+
+
+@media (min-width: 770px) {
+  
+   .section2{
+    min-width:600px;
+    }
+    
+  .section_title2 {
+    padding-top:36px;
+    height:48px;
+  }
+  .section_title2 > h2{
+    font-size:28px;
+    height:32px;
+  }
+  .wrapper2{
+    padding-top:5%;
+    height: 100%;
+    max-height:690px;
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  .inner2{
+    width:100%;
+    height: auto;
+    min-width: 500px;
+
+  }
+  .photo_s{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+  }
+  .photo_flame{
+    margin:0;
+    padding-top:0%;
+    min-height: 410px;
+    height:95%;
+    width:70%;
+    max-width: 920px;
+    text-align:center;
+    margin: auto 0;
+  }
+  .works_content{
+    height:100%;
+    width:100%;
+    min-width: 540px;
+    text-align:center;
+  }
+  
+  .photo_works{
+    width:100%;
+    max-width:720px;
+    margin: 0 auto;
+    display:block;
+  }
+  
+  .photo_desc{
+    text-align: center;
+    justify-content:center;
+    margin:0 auto;
+    margin-top:12px;
+  }
+  .photo_u{
+    min-width:280px;
+    width: 100%;
+    max-width: 280px;
+    min-height:360px;
+    height:100%;
+    max-height:460px;
+    display: table-cell;
+    vertical-align:middle;
+    align-items:center;
+    margin: 0 auto;
+  }
+  .photo_box{
+    display: flex;
+    padding: 0;
+    height: 100%;
+    width:100%;
+    min-width: 180px;
+    max-width:280px;
+    max-height: 420px;
+  }
+  
+  .photo_box_ul {
+    height:100%;
+    padding-left: 20px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    max-height: 420px;
+  }
+  
+  .photo_box_li{
+    width:100%;
+    height:60px;
+    margin:20px;
+  }
+  
+  .photo_box_li > a > img {
+    min-width:60px;
+    max-width:240px;
+    
+  }
+  
+  .gallery_link{
+    margin:18px 0 0 0;
+    font-size: 12px;
+    text-align:center;
+  }
+  
+
+
+}
+
+@media (min-width: 1100px){
+  .photo_flame{
+    width: 85%;
+  }
+  .works_content{
+    margin: 0 auto 0 0;
+  }
+  .photo_works {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 0 0 auto;
+    display: block;
+}
+  
+  .photo_desc {
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 0 auto;
+    margin-top: 12px;
+}
+  .photo_u{
+    width: 15%;
+  }
+  .photo_u{
+    min-width:280px;
+    width: 100%;
+    max-width: 280px;
+    min-height:360px;
+    height:100%;
+    max-height:460px;
+    display: table-cell;
+    vertical-align:middle;
+    align-items:center;
+    margin: 0 auto;
+  }
+   .photo_box{
+    margin: 0 ;
+  }
+
+}
+
+@media (orientation: landscape) and (max-width: 767px){
+   #section2 {
+      
+      min-height:800px;
+     
+  }
+  .wrapper2{
+ 
+    height: 100%;
+    max-height: 100%;
+
+  }
+ 
+}

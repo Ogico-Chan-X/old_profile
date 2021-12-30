@@ -1,0 +1,18 @@
+
+.works_content li{
+  display:none;
+}
+
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.Headline{
+  animation: SlideIn 1.6s;
+}

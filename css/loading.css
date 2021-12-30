@@ -1,0 +1,58 @@
+
+.loading{
+  position: fixed;
+  width: 101vw;
+  height: 101vh;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  z-index: 999999;
+}
+.animation{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: red;
+  -webkit-animation: lodanimetion 1500ms ease-out forwards infinite;
+  animation: lodanimetion 1500ms ease-out forwards infinite;
+}
+
+.load_img{
+  width:280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate( -50%,-50%);
+  -webkit-animation: lodanimetion 1500ms ease-out forwards infinite;
+  animation: lodanimetion 1500ms ease-out forwards infinite;
+}
+
+@keyframes lodanimetion {
+  from,to {
+    opacity: 0;
+  }
+  50% {
+    opacity: .8;
+  }
+}
+
+
+@media (orientation: landscape){
+.load_div{
+  height:20px;
+  width:300px;
+   position:absolute;
+   top:500%;
+   transform:translate(-50%, 150%);
+   justify-content:center;
+  }
+.load_div p{
+  height:100%;
+  width:100%;
+  text-align:center;
+  }
+  
+}

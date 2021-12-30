@@ -1,0 +1,142 @@
+.section5{
+  width: 100%;
+  min-width:280px;
+  height:100vh;
+  min-height:560px;
+  color: gray;
+  position: relative;
+
+}
+.section_title5 {
+  width:100%;
+  height:24px;
+  display: block;
+  text-align: center;
+
+}
+
+.section_title5 h2{
+  font-size: 18px;
+}
+.wrapper5{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner5{
+  min-width:280px;
+  width: 80%;
+  max-width:720px;
+  height: 95%;
+  justify-content:center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.form_sec5{
+  display:block;
+  height:50px;
+  min-width: 280px;
+  width: 100%;
+  max-width: 480px;
+  margin: auto 0;
+  height: 100%;
+  max-height:500px;
+  align-items:center;
+  justify-content: center;
+}
+
+.form_label{
+  font-size:12px;
+  width:70px;
+}
+.form_box{
+  font-size:12px;
+  width:80%;
+  justify-content:center;
+  margin: 0 auto;
+  height:100%;
+}
+
+.input_area{
+  width:100%;
+  background-color:#263246;
+  border:none;
+  color:white;
+}
+
+.forms_text_box p{
+  font-size:8px;
+}
+
+.btn_box{
+  margin-top:20px;
+  display:flex;
+  align-items: center;
+}
+
+.form-button{
+  margin:0 auto;
+  padding: 4px 12px;
+  color:white;
+  font-size:18px;
+  background-color:transparent;
+  border:none;
+  border-bottom: 4px solid #263246;
+
+}
+@media (min-width: 770px) {
+  .section_title5 {
+    height:48px;
+  
+  }
+  .section_title5 > h2{
+    font-size:28px;
+    height:32px;
+    text-align:center;
+    font-size:28px;
+  }
+  .form_sec5{
+    min-width: 480px;
+    width: 100%;
+    max-width: 620px;
+  }
+  .inner5{
+    width:100%;
+    margin:0 auto;
+  }
+  
+  .forms{
+    padding-right:70px;
+  }
+  .form_box{
+    width:100%;
+  }
+  .forms{
+    display:flex;
+    margin-bottom:24px;
+  }
+  .text_form{
+    width: calc(100% - 70px);
+  }
+
+  .forms_text_box p {
+    padding-left: 70px;
+  }
+
+}
+@media (min-width: 800px){
+
+}
+
+@media (orientation: landscape) and (max-width: 767px){
+   .section5 {
+      
+      min-height:730px;
+     
+  }
+}
